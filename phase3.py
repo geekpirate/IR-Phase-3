@@ -188,6 +188,7 @@ for i in range(1, len(time_elapsed_v1)):
     exec_t_cpu.append(elpsmtm[i])
 
 plt.plot(filec1, exec_t_cpu)
+
 plt.xlabel("Number of documents")
 plt.ylabel("CPU Time")
 plt.show()
